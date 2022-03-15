@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+}
+.button1 {
+    /* border: solid green;
+    background-color: green; */
+    width: 2rem; /* jei norim visom keturiom kraštinėm užduoti tą atį dydį, rašom vieną skaičių */
+    height: 2rem;
+    /* padding: 15px; */
+    /* margin: 2rem; */
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.button2 {
+    /* border: solid red;
+    background-color: red; */
+    width: 2rem; /* jei norim visom keturiom kraštinėm užduoti tą atį dydį, rašom vieną skaičių */
+    height: 2rem;
+    /* padding: 15px; */
+    /* margin: 2rem; */
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
